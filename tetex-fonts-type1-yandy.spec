@@ -1,6 +1,8 @@
 # TODO:
 # - review license...
+# - use .pfb only (not .pfa) if possible
 Summary:	TeX EC fonts, PostScript Type1 format
+Summary(pl):	Fonty TeX EC w formacie PostScript Type1
 %define		short_name	yandy
 Name:		tetex-fonts-type1-%{short_name}
 Version:	1
@@ -19,6 +21,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 These are Type1 renderings of the EC variants of the standard CMR
 family.
+
+%description -l pl
+Ten pakiet zawiera obrazy Type1 wariantów EC ze standardowej rodziny
+CMR.
 
 %prep
 %setup -q -n %{short_name}-fonts
