@@ -6,9 +6,9 @@ Summary(pl):	Fonty TeX EC w formacie PostScript Type1
 %define		short_name	yandy
 Name:		tetex-fonts-type1-%{short_name}
 Version:	1
-Release:	0.9
+Release:	1
 License:	non distributable
-Group:		Applications/Publishing/TEX
+Group:		Fonts
 Source0:	yandy-fonts.tar.bz2
 NoSource:	0
 Requires:	tetex
