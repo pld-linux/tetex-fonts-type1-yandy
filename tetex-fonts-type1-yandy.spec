@@ -2,7 +2,7 @@
 # - review license...
 # - use .pfb only (not .pfa) if possible
 Summary:	TeX EC fonts, PostScript Type1 format
-Summary(pl.UTF-8):   Fonty TeX EC w formacie PostScript Type1
+Summary(pl.UTF-8):	Fonty TeX EC w formacie PostScript Type1
 %define		short_name	yandy
 Name:		tetex-fonts-type1-%{short_name}
 Version:	1
